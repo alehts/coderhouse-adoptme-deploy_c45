@@ -14,8 +14,8 @@ import viewRouter from './routes/view.router.js'
 
 const app = express();
 const PORT = process.env.PORT || 9090;
-const connection = mongoose.connect(process.env.MONGO_URL)
-// const connection = mongoose.connect("mongodb+srv://admin:admin@cluster0.8hkzesl.mongodb.net/clase45-adoptme-deploy?retryWrites=true&w=majority")
+// const connection = mongoose.connect(process.env.MONGO_URL)
+const connection = mongoose.connect("mongodb+srv://admin:admin@cluster0.8hkzesl.mongodb.net/clase45-adoptme-deploy?retryWrites=true&w=majority")
 
 // confi de hbs
 app.engine('handlebars', handlebars.engine());
