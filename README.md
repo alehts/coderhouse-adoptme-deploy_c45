@@ -9,4 +9,4 @@ Variables de entorno seteadas
 
 Script de inicio
 
-Puerto de escucha
+Puerto de escucha: 9090 o revisar .ENV
